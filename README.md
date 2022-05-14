@@ -88,7 +88,7 @@ public abstract class ListWrapper<T> {
     public abstract T getElement(int index);
 
     /**
-     * @return beauty string by list
+     * @return beauty styled string of elements. (e.g. ["first", "second"])
      */
     public abstract String beautyString();
     
